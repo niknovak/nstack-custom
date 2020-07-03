@@ -7,8 +7,8 @@ let package = Package(
         .library(name: "NStack", targets: ["NStack"]),
         ],
     dependencies: [
-        .package(url: "https://github.com/vapor/vapor.git", from: "3.0.0"),
-        .package(url: "https://github.com/nodes-vapor/sugar.git", from: "3.0.0-beta")
+        .package(url: "https://github.com/vapor/vapor.git", from: "2.0.0"),
+        .package(url: "https://github.com/nodes-vapor/sugar.git", from: "2.0.0")
         ],
     targets: [
         .target(name: "NStack", dependencies: ["Vapor", "Sugar"]),
